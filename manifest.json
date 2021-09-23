@@ -1,0 +1,16 @@
+{
+  "name": "scrollToTopSF",
+  "description": "Scroll to the top of a Salesforce Page",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.salesforce.com/*"
+      ],
+      "js": [
+        "scrollToTopSF.js"
+      ]
+    }
+  ]
+}
